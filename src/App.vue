@@ -16,7 +16,6 @@
 </script>
 
 
-<style src="./w3ds/w3ds.css"></style>
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
