@@ -39,7 +39,7 @@ export default {
     fetchData(){
         this.$axios
           .get(
-            'http://5c92dbfae7b1a00014078e61.mockapi.io/owners'
+            '//5c92dbfae7b1a00014078e61.mockapi.io/owners'
           )
           .then(res => {   
             var arr = res.data
