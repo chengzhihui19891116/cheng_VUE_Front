@@ -85,7 +85,7 @@ export default {
       this.cityChoose = command
       this.$axios
           .get(
-           'http://localhost:5050/getWeather/' + command + '/' +'?timeid=' + (new Date()).valueOf(), 
+           'http://localhost:9999/getWeather/' + command + '/' +'?timeid=' + (new Date()).valueOf(), 
           )
            .then(res => {
               var futherWeather = res.data.data
